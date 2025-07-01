@@ -24,3 +24,6 @@ python eval_oneposeplus.py
 ```
 python test_image_list_docking_station.py --image_list path_to_test_txt_file --checkpoint_dir path_to_checkpoint_dir 
 ```
+This will evaluate the model and report the metrices. An Inference plot on each image can be obtained by ucimmenting the respective lines. 
+
+6. Save the video of the inference by executing vdo_oneposeplus.ipynb
